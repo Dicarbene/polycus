@@ -1,0 +1,81 @@
+button:
+  about: 关于
+  back: 返回
+  blogs: 博客
+  go: 确定
+  home: 首页
+  portfolio: 简历
+  projects: 项目
+  toggle_dark: 切换深色模式
+  toggle_langs: 切换语言
+intro:
+  aka: 也叫
+  desc: 固执己见的 Vite 项目模板
+  dynamic-route: 动态路由演示
+  hi: 你好，{name}
+  whats-your-name: 输入你的名字
+not-found: 未找到页面
+portfolio:
+  about-self: dicarbene
+  awards:
+    award1:
+      level: 国家级，三等奖
+      name: 2021 团体程序设计天梯赛个人三等奖
+      time: 2021 年 04 月
+  certifications:
+    one: triplebyte https://triplebyte.com/candidates/certificate
+  education:
+    edu1:
+      description: null
+      major: 计算机科学与技术
+      school: 中国石油大学 (北京)
+      time: 2019.08 - 2023.06
+      title: 学士
+  experience:
+    work1:
+      company: 中央财经大学-数字财经研究中心
+      department: api部门
+      description: >-
+        - 数据可视化: 使用 ECharts 完成了从上传文件到前端 MACC 曲线的展示等工作 - 文档展示: 通过 swagger ui 和
+        open api 完成了 api 展示 - 使用 typescript 对不同的数据进行了 types 封装 -
+        根据设计文档实现了项目的呈现页面与交互逻辑 (用户登陆注册、面板管理界面等) - 技术栈:
+        Vue3+TypeScript+Vite2+Pinia+Vue Router+Naive UI
+      position: 前端实习
+      time: 2022 年 7 月 - 2022 年 8 月
+  list:
+    awards: 奖项
+    certifications: 证书
+    education: 教育
+    experience: 经历
+    miscellaneous: 其他
+    projects: 项目
+    self: 简介
+    tech-stack: 技术栈
+  miscellaneous: |-
+    "• 技术博客: http://dicarbene-github-io.vercel.app/
+    • GitHub: https://github.com/Dicarbene
+    • 语言: 英语 - 熟练 (CET6-523)"
+  projects:
+    project1:
+      description: >-
+        - 实现了页面切换状态组件封装, 响应式用户登录状态的组件封装等 - 通过 `codemirror`` 实现了代码编辑模块 - 使用
+        Restful api 的 client-side first 架构与后端进行通信 - 设计并实现了项目的呈现页面与交互逻辑 - 使用了最新的
+        Vue3 技术栈: Vue3+Vite2+Pinia+Vue Router
+      name: 软件管理库系统
+      position: 前端
+      stack: Vue3 Vite2 Pinia Vue Router
+      time: 2022 年 4 月 - 2022 年 5 月
+  self:
+    name: 万旭杰
+  tech-stack:
+    one: Typescript, Javascript
+    three: Django, React18, Next.js
+    two: ' Vue3, Express.js, Vite2, Pinia, Vue router, TailwindCSS, Naive UI, Element UI 等'
+projects:
+  wooden-fish:
+    sounds:
+      doo: 嘟
+      der: 嘚
+      dong: 咚
+    benefaction: 功德
+    

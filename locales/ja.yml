@@ -1,0 +1,74 @@
+button:
+  about: これは？
+  back: 戻る
+  blogs: ブログ
+  go: 進む
+  home: ホーム
+  portfolio: ポートフォリオ
+  projects: プロジェクト
+  toggle_dark: ダークモード切り替え
+  toggle_langs: 言語切り替え
+intro:
+  aka: としても知られている
+  desc: 固執された Vite スターターテンプレート
+  dynamic-route: 動的ルートのデモ
+  hi: こんにちは、{name}!
+  whats-your-name: 君の名は。
+not-found: 見つかりませんでした
+portfolio:
+  about-self: dicarbene
+  awards:
+    award1:
+      level: 全国三等賞
+      name: 2021年 チームプログラミングラダー大会 個人 3位入賞
+      time: 2021年4月
+  certification:
+    one: triplebyte https://triplebyte.com/candidates/certificate
+  education:
+    edu1:
+      major: コンピュータサイエンスとテクノロジー
+      school: 中国石油大学（北京）
+      time: 2019.08 - 2023.06
+      title: 学士
+  experience:
+    work1:
+      company: 中央財経大学-デジタル金融研究センター
+      department: API部門
+      description: >-
+        - データの視覚化: ECharts を使用して、ファイルのアップロードからフロントエンドの MACC 曲線の表示までの作業を完了します -
+        ドキュメントの表示: swagger ui とオープン API を介して API 表示を完了します - typescript
+        を使用して、さまざまなデータ型をカプセル化します - 設計ドキュメントに従って実装しますプロジェクトのプレゼンテーション
+        ページとインタラクション ロジック (ユーザーのログインと登録、パネル管理インターフェイスなど) - テクノロジー スタック: Vue3
+        TypeScript Vite2 Pinia Vue Router Naive UI
+      position: フロントエンドインターンシップ
+      time: 2022年7月～2022年8月
+  miscellaneous: |-
+    "• 技術ブログ: http://dicarbene-github-io.vercel.app/
+
+    • GitHub: https://github.com/Dicarbene
+
+    • 言語: 英語 - 堪能 (CET6-523)"
+  projects:
+    project1:
+      description: >-
+        - ページ切り替え状態のコンポーネントカプセル化、レスポンシブユーザーログイン状態のコンポーネントカプセル化などを実装 -
+        「codemirror」によるコード編集モジュールを実装 - Restful api
+        のクライアント側の最初のアーキテクチャを使用してバックエンドと通信 - プロジェクトの設計と実装 Rendering - 最新の Vue3
+        スタックを使用: Vue3 Vite2 Pinia Vue Router
+      name: ソフトウェア管理ライブラリ システム
+      position: フロントエンド
+      stack: Vue3 Vite2 Pinia Vue Router
+      time: 2022年4月～2022年5月
+  self:
+    name: 万旭杰
+  tech-stack:
+    one: タイプスクリプト、ジャバスクリプト
+    three: ジャンゴ、React18、Next.js
+    two: Vue3、Express.js、Vite2、Pinia、Vue ルーター、TailwindCSS、Naive UI、Element UI
+projects:
+  wooden-fish:
+    benefaction: メリット
+    sounds:
+      der: どど
+      dong: どき
+      doo: どう

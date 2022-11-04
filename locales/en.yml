@@ -1,0 +1,83 @@
+button:
+  about: About
+  back: Back
+  blogs: Blogs
+  go: GO
+  home: Home
+  portfolio: Portfolio
+  projects: Projects
+  toggle_dark: Toggle dark mode
+  toggle_langs: Change languages
+intro:
+  aka: Also known as
+  desc: Opinionated Vite Starter Template
+  dynamic-route: Demo of dynamic route
+  hi: Hi, {name}!
+  whats-your-name: What's your name?
+not-found: Not found
+portfolio:
+  about-self: dicarbene
+  awards:
+    award1:
+      level: National, third prize
+      name: 2021 Team Programming Ladder Competition Individual Third Prize
+      time: April 2021
+  certification:
+    one: triplebyte https://triplebyte.com/candidates/certificate
+  education:
+    edu1:
+      major: computer science and Technology
+      school: China University of Petroleum (Beijing)
+      time: 2019.08 - 2023.06
+      title: Bachelor
+  experience:
+    work1:
+      company: >-
+        Central University of Finance and Economics-Digital Finance Research
+        Center
+      department: api department
+      description: >-
+        - Data visualization: Use ECharts to complete the work from uploading
+        files to the display of front-end MACC curves - Document display:
+        Complete api display through swagger ui and open api - Use typescript to
+        encapsulate different data types - Implemented according to the design
+        document 
+
+        The presentation page and interaction logic of the project (user login
+        and registration, panel management interface, etc.) - Technology Stack:
+        Vue3 TypeScript Vite2 Pinia Vue Router Naive UI
+      position: Front-end Internship
+      time: July 2022 - August 2022
+  miscellaneous: |-
+    • Technical Blog: http://dicarbene-github-io.vercel.app/
+    • GitHub: https://github.com/Dicarbene
+    • Language: English - Proficient (CET6-523)
+  projects:
+    project1:
+      description: >-
+        - Implemented component encapsulation of page switching state, component
+        encapsulation of responsive user login state, etc. - Implemented code
+        editing module through `codemirror` - Communicates with the backend
+        using the client-side first architecture of Restful api - Designed and
+        implemented the project
+
+        Rendering pages and interaction logic for the - using the latest Vue3
+      name: Software management library system
+      position: front end
+      stack: Vue3 Vite2 Pinia Vue Router
+      time: April 2022 - May 2022
+  self:
+    name: Xujie Wan
+  tech-stack:
+    one: Typescript, Javascript
+    three: Django, React18, Next.js
+    two: >-
+      -Vue3, Express.js, Vite2, Pinia, Vue router, TailwindCSS, Naive UI,
+      Element UI
+projects:
+  wooden-fish:
+    benefaction: Benefaction
+    sounds:
+      der: der
+      dong: dong
+      doo: doo

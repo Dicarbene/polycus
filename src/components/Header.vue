@@ -13,13 +13,28 @@ const toggleLocales = () => {
       <span class="icon-home">Hi@Dicarbene></span><span class="blink ">_</span>
     </div>
   </RouterLink>
-  <header class="min-w-max z-40 invisible md:visible">
-    <div class="spacer" />
-    <nav p-2em w-full text-base>
+  <header class="min-w-max z-40">
+    <div class="spacer" visible md:invisible />
+    <nav p-2em w-full text-base flex md:display-none>
+      <div font-200 flex class="tempright">
+        <RouterLink class="icon-btn " to="/projects" :title="t('button.projects')">
+          <div i-carbon:idea inline-block align-bottom style="font-size: 1.25rem; margin: 0px -0.125rem;" />
+          {{ t('button.projects') }}
+        </RouterLink>
+        <button class="icon-btn  !outline-none" :title="t('button.toggle_dark')" @click="toggleDark()">
+          <div i="line-md-sunny-outline dark:line-md-moon" style="font-size: 1.25rem; margin: 0px -0.125rem;" />
+        </button>
+        <a class="icon-btn " :title="t('button.toggle_langs')" @click="toggleLocales()">
+          <div i-carbon-language style="font-size: 1.25rem; margin: 0px -0.125rem;" />
+        </a>
+      </div>
+    </nav>
+    <nav p-2em w-full text-base display-none md:display-block>
       <div class="right" font-200>
         <RouterLink class="icon-btn " to="/blogs" :title="t('button.home')">
           <div i-carbon:blog inline-block align-bottom style="font-size: 1.25rem; margin: 0px -0.125rem;" /> {{
-            t('button.blogs') }}
+            t('button.blogs')
+          }}
         </RouterLink>
         <RouterLink class="icon-btn " to="/projects" :title="t('button.projects')">
           <div i-carbon:idea inline-block align-bottom style="font-size: 1.25rem; margin: 0px -0.125rem;" />
@@ -61,6 +76,13 @@ header {
 header nav .right {
   display: grid;
   grid-template-columns: repeat(8, max-content);
+  grid-row-gap: 1.2rem;
+  grid-column-gap: 1.2rem;
+}
+
+header nav .tempright {
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
   grid-row-gap: 1.2rem;
   grid-column-gap: 1.2rem;
 }

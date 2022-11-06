@@ -9,7 +9,7 @@ const toggleLocales = () => {
 
 <template>
   <RouterLink to="/" :title="t('button.home')">
-    <div inline-block font-bold text-xl w-auto h-10 absolute lg:fixed m-6 ml-9 select-none outline-none>
+    <div inline-block font-bold text-xl w-auto h-10 absolute lg:fixed m-6 md:ml-9 select-none outline-none>
       <span class="icon-home">Hi@Dicarbene></span><span class="blink ">_</span>
     </div>
   </RouterLink>

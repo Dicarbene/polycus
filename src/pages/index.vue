@@ -14,18 +14,19 @@ const { t } = useI18n()
 <template>
   <div min-h-100vh>
     <div text-4xl>
-      <div i-carbon-campsite inline-block />
+      <div inline-block>
+        <img v-if="!isDark" src="/favicon.svg">
+        <img v-else src="/favicon-dark.svg">
+      </div>
     </div>
     <p>
-      <a rel="noreferrer" href="https://github.com/antfu/vitesse" target="_blank">
-        Vitesse
+      <a rel="noreferrer" href="https://github.com/dicarbene/polycus" target="_blank">
+        Polycus
       </a>
     </p>
-    <p>
-      <em text-sm opacity-75>{{ t('intro.desc') }}</em>
-    </p>
-
-    <div py-4 />
+    <div py-4>
+      <p>This is a portfolio/personal-site template.</p>
+    </div>
 
     <input
       id="input" v-model="name" :placeholder="t('intro.whats-your-name')" :aria-label="t('intro.whats-your-name')"

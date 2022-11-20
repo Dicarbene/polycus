@@ -19,7 +19,7 @@ const wave = () => {
 }
 watchEffect(() => {
   if (count.value === 10) {
-    // alert('电子木鱼也会梦见虚拟功德吗？')
+    alert('电子木鱼也会梦见虚拟功德吗？')
     count.value = 0
   }
 })

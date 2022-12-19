@@ -12,7 +12,7 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <div min-h-100vh>
+  <div>
     <div text-4xl>
       <div inline-block>
         <img v-if="!isDark" src="/favicon.svg">
@@ -24,22 +24,21 @@ const { t } = useI18n()
         Polycus
       </a>
     </p>
-    <div py-4>
-      <p>This is a portfolio/personal-site template.</p>
-    </div>
+    <article class=" prose mx-auto">
+      <h2>Hi there 👋</h2>
 
-    <input
-      id="input" v-model="name" :placeholder="t('intro.whats-your-name')" :aria-label="t('intro.whats-your-name')"
-      type="text" autocomplete="false" p="x4 y2" w="250px" text="center" bg="transparent"
-      border="~ rounded gray-200 dark:gray-700" outline="none active:none" @keydown.enter="go"
-    >
-    <label class="hidden" for="input">{{ t('intro.whats-your-name') }}</label>
+      <p>I'm wxj || Dicarbene, a fullstack developer(should be).</p>
 
-    <div>
-      <button btn m-3 text-sm :disabled="!name" @click="go">
-        {{ t('button.go') }}
-      </button>
-    </div>
+      <p>✍ Most of my works are made with Vue(it's just so good)</p>
+
+      <p>🚀 I'm learning TypeScript, Next.js etc.</p>
+
+      <p>🕹️ Here are my personal website: http://dicarbene-github-io.vercel.app/</p>
+
+      <p>👾 I'm currently interested in in web3.0</p>
+
+      <p>😻 My dream: having a succulent garden and 3 fat cats lol.</p>
+    </article>
   </div>
 </template>
 

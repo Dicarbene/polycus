@@ -16,7 +16,7 @@ const goto = (link: string) => {
   <h1 class="mb-2 font-serif text-shadow-lg" style="font-size: 50px">
     ARCHIVE
   </h1>
-  <h2 v-for="md in mdList" :key="mdList.indexOf(md)" icon-home block @click="goto(md)">
+  <h2 v-for="md in mdList" :key="mdList.indexOf(md)" class="icon-home block" @click="goto(md)">
     {{ md.substring(md.indexOf('/') + 1) }}
   </h2>
 </template>

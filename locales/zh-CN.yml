@@ -16,12 +16,20 @@ intro:
   whats-your-name: 输入你的名字
 not-found: 未找到页面
 portfolio:
-  about-self: dicarbene
+  about-self:
+    info: |-
+      WXJ在东莞上学并获得了 CUP 大学的学位（事杯具捏）。
+      在找到工作（仍在寻找）之前，他参加了算法竞赛（be收场），并做了一些有趣的副项目（太有趣了，以致于几乎没有生产力）。
+      虽然他的工作是前端工程师，但除了经常被 leetcode 和 bfe 弄得心烦意乱之外，他的业余兴趣范围很广，从多肉植物和猫到钢笔和小说，应有尽有。
+      他可以慢慢和你讲很多事，但这就不会是“长度限制”的关于栏了~
+    name: dicarbene
   awards:
     award1:
       level: 国家级，三等奖
       name: 2021 团体程序设计天梯赛个人三等奖
       time: 2021 年 04 月
+  certification:
+    one: triplebyte https://triplebyte.com/candidates/certificate
   certifications:
     one: triplebyte https://triplebyte.com/candidates/certificate
   education:
@@ -73,8 +81,9 @@ portfolio:
     two: ' Vue3, Express.js, Vite2, Pinia, Vue router, TailwindCSS, Naive UI, Element UI 等'
 projects:
   wooden-fish:
+    benefaction: 功德
+    name: 电子木鱼
     sounds:
-      doo: 嘟
       der: 嘚
       dong: 咚
-    benefaction: 功德
+      doo: 嘟

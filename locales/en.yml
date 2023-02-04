@@ -16,13 +16,25 @@ intro:
   whats-your-name: What's your name?
 not-found: Not found
 portfolio:
-  about-self: dicarbene
+  about-self:
+    info: >-
+      wxj hails from dongguan! He has earned degrees from the CUP university (a
+      cup right?). Before finding a job (still finding), he participated
+      competitive programming(not ending well), and play a few fun side hustle
+      (too fun to be near productive). While his work focuses on frontend
+      engineer, besides mostly getting frustrated by leetcode and bfe, his
+      non-work interests range widely, everything from succulents and cats to
+      pens and novels. He could tell you about it, but THAT would NOT be a
+      “length-limited” about section!
+    name: dicarbene
   awards:
     award1:
       level: National, third prize
       name: 2021 Team Programming Ladder Competition Individual Third Prize
       time: April 2021
   certification:
+    one: triplebyte https://triplebyte.com/candidates/certificate
+  certifications:
     one: triplebyte https://triplebyte.com/candidates/certificate
   education:
     edu1:
@@ -48,6 +60,15 @@ portfolio:
         Vue3 TypeScript Vite2 Pinia Vue Router Naive UI
       position: Front-end Internship
       time: July 2022 - August 2022
+  list:
+    awards: awards
+    certifications: Certificate
+    education: educate
+    experience: experience
+    miscellaneous: other
+    projects: project
+    self: Introduction
+    tech-stack: technology stack
   miscellaneous: |-
     • Technical Blog: http://dicarbene-github-io.vercel.app/
     • GitHub: https://github.com/Dicarbene
@@ -77,6 +98,7 @@ portfolio:
 projects:
   wooden-fish:
     benefaction: Benefaction
+    name: digital wooden-fish
     sounds:
       der: der
       dong: dong

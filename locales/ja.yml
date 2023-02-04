@@ -16,7 +16,21 @@ intro:
   whats-your-name: 君の名は。
 not-found: 見つかりませんでした
 portfolio:
-  about-self: dicarbene
+  about-self:
+    info: >-
+      WXJ は東莞の学校に通い、CUP 大学で学位を取得しました (これはお茶です)。
+
+
+      就職する前 (まだ探している)、彼はアルゴリズム コンテストに参加し (終了する予定)、いくつかの興味深いサイド プロジェクトを行いました
+      (あまりにも楽しくてほとんど生産的ではありませんでした)。
+
+
+      彼はフロントエンド エンジニアとして働いていますが、常に leetcode と bfe
+      に気を取られていることを除けば、多肉植物や猫からペンや小説まで、さまざまな趣味を持っています。
+
+
+      ゆっくり色々教えてくれますが、コラムの「長さ制限」にはなりませんよ～
+    name: dicarbene
   awards:
     award1:
       level: 全国三等賞
@@ -24,6 +38,8 @@ portfolio:
       time: 2021年4月
   certification:
     one: triplebyte https://triplebyte.com/candidates/certificate
+  certifications:
+    one: トリプルバイト https://triplebyte.com/candidates/certificate
   education:
     edu1:
       major: コンピュータサイエンスとテクノロジー
@@ -42,6 +58,15 @@ portfolio:
         TypeScript Vite2 Pinia Vue Router Naive UI
       position: フロントエンドインターンシップ
       time: 2022年7月～2022年8月
+  list:
+    awards: 賞
+    certifications: 証明書
+    education: 教育する
+    experience: 経験
+    miscellaneous: 他の
+    projects: 計画
+    self: 序章
+    tech-stack: 技術スタック
   miscellaneous: |-
     "• 技術ブログ: http://dicarbene-github-io.vercel.app/
 
@@ -68,6 +93,7 @@ portfolio:
 projects:
   wooden-fish:
     benefaction: メリット
+    name: 電子木製魚
     sounds:
       der: どど
       dong: どき
